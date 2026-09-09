@@ -1,0 +1,8 @@
+2026-09-09 03:23:15,683 - model_registration - ERROR - File not found: reports/experiment_info.json
+2026-09-09 03:23:15,684 - model_registration - ERROR - Failed to complete the model registration process: [Errno 2] No such file or directory: 'reports/experiment_info.json'
+2026-09-09 03:24:18,787 - model_registration - ERROR - Error during model registration: Unable to find a logged_model with artifact_path model under run 4af13d64898a476283e7eaf8ce481127
+2026-09-09 03:24:18,788 - model_registration - ERROR - Failed to complete the model registration process: Unable to find a logged_model with artifact_path model under run 4af13d64898a476283e7eaf8ce481127
+2026-09-09 03:31:40,850 - model_registration - ERROR - Error during model registration: Unable to find a logged_model with artifact_path model under run a302c9457e3f48d494965c94a01721ef
+2026-09-09 03:31:40,892 - model_registration - ERROR - Failed to complete the model registration process: Unable to find a logged_model with artifact_path model under run a302c9457e3f48d494965c94a01721ef
+2026-09-09 03:48:55,562 - model_registration - ERROR - Error during model registration: Unable to find a logged_model with artifact_path model under run b914027717614fac8274425939bbb759
+2026-09-09 03:48:55,606 - model_registration - ERROR - Failed to complete the model registration process: Unable to find a logged_model with artifact_path model under run b914027717614fac8274425939bbb759

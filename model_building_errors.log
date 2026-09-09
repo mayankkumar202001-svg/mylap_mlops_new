@@ -1,0 +1,2 @@
+2026-09-09 02:49:29,948 - model_building - ERROR - Error occurred while saving the model: [Errno 2] No such file or directory: 'mlops/src/model/model.pkl'
+2026-09-09 02:49:29,948 - model_building - ERROR - Failed to complete the model building process: [Errno 2] No such file or directory: 'mlops/src/model/model.pkl'

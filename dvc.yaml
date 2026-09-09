@@ -1,0 +1,56 @@
+# updated dvc.yaml
+
+stages:
+  data_ingestion:
+    cmd: python mlops_project/src/data/data_ingestion.py
+    deps:
+    - mlops_project/src/data/data_ingestion.py
+    params:
+    - data_ingestion.test_size
+    outs:
+    - data/raw
+
+  data_preprocessing:
+    cmd: python mlops_project/src/data/data_preprocessing.py
+    deps:
+    - data/raw
+    - mlops_project/src/data/data_preprocessing.py
+    outs:
+    - data/interim
+
+  feature_enginering:
+    cmd: python mlops_project/src/features/feature_eng.py
+    deps:
+    - data/interim
+    - mlops_project/src/features/feature_eng.py
+    params:
+    - feature_engineering.max_features
+    outs:
+    - data/processed
+    - mlops_project/src/model/vectorizer.pkl
+
+
+  model_building:
+    cmd: python mlops_project/src/model/model_building.py
+    deps:
+    - data/processed
+    - mlops_project/src/model/model_building.py
+    outs:
+    - mlops_project/src/model/model.pkl
+
+
+  model_evaluation:
+    cmd: python mlops_project/src/model/model_evaluation.py
+    deps:
+    - mlops_project/src/model/model.pkl
+    - mlops_project/src/model/model_evaluation.py
+    metrics:
+    - mlops_project/reports/metrics.json
+    outs:
+    - mlops_project/reports/experiment_info.json  # Add the model_info.json file as an output
+
+  model_registration:
+    cmd: python mlops_project/src/model/model_reg.py
+    deps:
+    - mlops_project/reports/experiment_info.json
+    - mlops_project/src/model/model_reg.py

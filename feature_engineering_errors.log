@@ -1,0 +1,10 @@
+2026-09-09 02:26:54,929 - feature_engineering - ERROR - Error during Bag of Words transformation: [Errno 2] No such file or directory: 'models/vectorizer.pkl'
+2026-09-09 02:26:54,930 - feature_engineering - ERROR - Failed to complete the feature engineering process: [Errno 2] No such file or directory: 'models/vectorizer.pkl'
+2026-09-09 02:27:49,453 - feature_engineering - ERROR - Error during Bag of Words transformation: [Errno 2] No such file or directory: 'models/vectorizer.pkl'
+2026-09-09 02:27:49,454 - feature_engineering - ERROR - Failed to complete the feature engineering process: [Errno 2] No such file or directory: 'models/vectorizer.pkl'
+2026-09-09 02:32:45,194 - feature_engineering - ERROR - Error during Bag of Words transformation: [Errno 2] No such file or directory: 'models/vectorizer.pkl'
+2026-09-09 02:32:45,195 - feature_engineering - ERROR - Failed to complete the feature engineering process: [Errno 2] No such file or directory: 'models/vectorizer.pkl'
+2026-09-09 02:35:57,832 - feature_engineering - ERROR - Error during Bag of Words transformation: [Errno 2] No such file or directory: 'models/vectorizer.pkl'
+2026-09-09 02:35:57,832 - feature_engineering - ERROR - Failed to complete the feature engineering process: [Errno 2] No such file or directory: 'models/vectorizer.pkl'
+2026-09-09 02:37:31,286 - feature_engineering - ERROR - Error during Bag of Words transformation: Unable to parse string "happiness" at position 0
+2026-09-09 02:37:31,286 - feature_engineering - ERROR - Feature engineering failed: Unable to parse string "happiness" at position 0

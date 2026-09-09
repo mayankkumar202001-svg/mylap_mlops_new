@@ -1,0 +1,15 @@
+2026-09-09 03:05:59,508 - model_evaluation - ERROR - Error occurred while saving the metrics: [Errno 2] No such file or directory: 'reports/metrics.json'
+2026-09-09 03:05:59,509 - model_evaluation - ERROR - Failed to complete the model evaluation process: [Errno 2] No such file or directory: 'reports/metrics.json'
+2026-09-09 03:08:31,612 - model_evaluation - ERROR - Error occurred while saving the metrics: [Errno 2] No such file or directory: 'mlops_project/mlops_project/reports/metrics.json'
+2026-09-09 03:08:31,613 - model_evaluation - ERROR - Failed to complete the model evaluation process: [Errno 2] No such file or directory: 'mlops_project/mlops_project/reports/metrics.json'
+2026-09-09 03:09:39,405 - model_evaluation - ERROR - Error occurred while saving the metrics: [Errno 2] No such file or directory: 'mlops_project/mlops_project/reports/metrics.json'
+2026-09-09 03:09:39,405 - model_evaluation - ERROR - Failed to complete the model evaluation process: [Errno 2] No such file or directory: 'mlops_project/mlops_project/reports/metrics.json'
+2026-09-09 03:13:50,704 - model_evaluation - ERROR - Error occurred while saving the model info: [Errno 2] No such file or directory: 'reports/experiment_info.json'
+2026-09-09 03:13:50,705 - model_evaluation - ERROR - Failed to complete the model evaluation process: [Errno 2] No such file or directory: 'reports/experiment_info.json'
+2026-09-09 03:15:34,203 - model_evaluation - ERROR - Failed to complete the model evaluation process: [WinError 3] The system cannot find the path specified: 'reports/metrics.json'
+2026-09-09 03:17:44,579 - model_evaluation - ERROR - Failed to complete the model evaluation process: [WinError 2] The system cannot find the file specified: 'mlops_project/model_evaluation_errors.log'
+2026-09-09 03:55:54,322 - model_evaluation - ERROR - Failed to complete model evaluation: name 'experiment_info_path' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\mlops_project\mlops_project\src\model\model_evaluation.py", line 427, in main
+    experiment_info_path
+NameError: name 'experiment_info_path' is not defined. Did you mean: 'experiment_info'?
